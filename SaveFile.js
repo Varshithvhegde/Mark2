@@ -1,6 +1,3 @@
-document.getElementById("savebutton").addEventListener("click", function () {
-    saveFile();
-});
 
 function saveFile() {
     download(document.getElementById("textarea").value, prompt("What is the name of file?", "") + ".md", "text/plain");
