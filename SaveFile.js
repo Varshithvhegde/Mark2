@@ -1,6 +1,10 @@
 
 function saveFile() {
-    download(document.getElementById("textarea").value, prompt("What is the name of file?", "") + ".md", "text/plain");
+    var fileName=prompt("What is the name of file?", "");
+    if (fileName != null) {
+    
+    download(document.getElementById("textarea").value, fileName + ".md", "text/plain");
+    }
 }
 
 function download(data, filename, type) {
