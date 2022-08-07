@@ -1,0 +1,60 @@
+textarea {
+    min-width: 40%;
+    min-height: 40%;
+    border-width: 1px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    text-align: center;
+}
+
+#textarea {
+    margin-top: 1%;
+    display: block;
+    float: left;
+    overflow: auto;
+}
+
+#render {
+    margin-top: 1%;
+    min-width: 45%;
+    min-height: 40%;
+    max-height: 600px;
+    max-width: 45%;
+    display: block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    text-align: left;
+    margin-right: 1%;
+}
+
+#renderbutton {
+    margin-top: 1%;
+    width: 75px;
+    height: 50px;
+    max-width: 5%;;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    align-content: center;
+}
+
+#savebutton {
+    width: 75px;
+    height: 50px;
+    max-width: 20%;;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    align-content: center;
+}
+
+.render h1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
