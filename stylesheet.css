@@ -25,7 +25,7 @@ textarea {
     max-width: 45%;
     display: block;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     overflow: auto;
     text-align: left;
     margin-right: 1%;
