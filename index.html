@@ -16,13 +16,23 @@
         <textarea id="textarea" rows="20" cols="20" oninput="render()" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}"></textarea>
         <script src="RenderMarkdown.js"></script>
         <script src="SaveFile.js"></script>
-        <button id="savebutton" onclick="saveFile();">Save</button>
-        
         <div id="render" onload="render()" class="markdown-body"><p></p></div>
+        <button id="savebutton" onclick="saveFile();">Save</button>
+        <button id="clear" onclick="start();localStorage.removeItem('md');window.location.reload();">Clear Storage</button>
         <script>
+            function start(){
+            var md=localStorage.getItem("md");
+            if(md!=null){
+                document.getElementById('textarea').innerHTML=md;
+                render();
+            }
+            else{
             var str="# MarkDown Editor\n\n> GitHub Flavored Markdown Editor\n# How to Use\n- Clear the all codes on the left panel\n- Write some markdown codes there\n- Enjoy!";
             document.getElementById('textarea').innerHTML=str;
             render();
+            }
+        }
+        start()
             </script>
     </div>
 </body>

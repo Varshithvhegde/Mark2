@@ -6,6 +6,9 @@ A basic web-based Markdown editor.
 ```git
 git clone https://github.com/Varshithvhegde/Mark2.git
 ```
+## Usage
+
+[Markdown Web Live Editor](https://varshithvhegde.me/Mark2/)
 
 ## Features
 
