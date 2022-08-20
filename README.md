@@ -13,7 +13,8 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 ```
 ## Usage
 
-[Markdown Web Live Editor](https://varshithvhegde.me/Mark2/)
+[Markdown Web Live Editor](https://varshithvhegde.github.io/Mark2/)    Or   
+[https://varshithvhegde.github.io/Mark2/](https://varshithvhegde.me/Mark2/)
 
 ## Features
 
@@ -32,6 +33,7 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 - JavaScript
 - jQuery
 - <a href="https://marked.js.org">Marked.js</a>
+- Github Pages for hosting the website
 
 ## Screenshots
 
