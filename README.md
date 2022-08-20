@@ -47,3 +47,5 @@ MIT License
 
 ## Note
 > For Version 1 [Click Here](https://github.com/Varshithvhegde/MarkEditor)
+
+***
