@@ -17,6 +17,8 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 - Code Formatting
 - Can be used as a standalone app or as a part of a website
 - You can easily save your work locally using custome filename
+- <b>Automatic saving of work when you leave the page</b>
+- <b>It uses local storage to save your work</b>
 
 ## Tech Stack
 
