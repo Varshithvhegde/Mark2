@@ -35,7 +35,7 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/80502833/185742021-9e6b902c-3788-4c26-9c1a-f156ad7de516.png" alt="screenshot1" style="width:100%">
+<img src="https://user-images.githubusercontent.com/80502833/185742388-618bc3f7-9007-4c99-b464-870babb5503e.png" alt="screenshot1" style="width:100%">
 
 
 ## License
