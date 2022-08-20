@@ -28,5 +28,16 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 - jQuery
 - <a href="https://marked.js.org">Marked.js</a>
 
+## Screenshots
+
+<img src="https://varshithvhegde.me/Mark2/screenshots/screenshot1.png" alt="screenshot1" style="width:100%">
+
+
+## License
+
+MIT License
+
+
+
 ## Note
 > For Version 1 [Click Here](https://github.com/Varshithvhegde/MarkEditor)
