@@ -1,12 +1,6 @@
 # Basic-Markdown-Editor(Version 2)
 A basic web-based Markdown editor. 
 
-## Technologies used
-- <a href="https://marked.js.org">Marked.js</a> - A Markdown parser and compiler  
-
-## Note
-> For Version 1 [Click Here](https://github.com/Varshithvhegde/MarkEditor)
-
 ## Installation
 
 ```git
@@ -20,3 +14,14 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 - Code Formatting
 - Can be used as a standalone app or as a part of a website
 - You can easily save your work locally using custome filename
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- <a href="https://marked.js.org">Marked.js</a>
+
+## Note
+> For Version 1 [Click Here](https://github.com/Varshithvhegde/MarkEditor)
