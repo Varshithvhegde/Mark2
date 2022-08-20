@@ -29,6 +29,7 @@ textarea {
     overflow: auto;
     text-align: left;
     margin-right: 1%;
+    padding :15px;
 }
 
 #renderbutton {
