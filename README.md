@@ -1,6 +1,11 @@
 # Basic-Markdown-Editor(Version 2)
 A basic web-based Markdown editor. 
 
+## Description
+
+This is a basic web-based Markdown editor. It is a simple web-based editor that allows you to write and edit Markdown files.Markdown is a simple plain text formatting syntax that is easy to read and write, and is a text-based alternative to HTML.It is designed to be as easy to use as possible, while being as powerful as possible.As an editor, you can write and edit Markdown files.
+
+
 ## Installation
 
 ```git
