@@ -2,7 +2,7 @@ textarea {
     min-width: 40%;
     min-height: 40%;
     border-width: 1px;
-    font-size: 26px;
+    /* font-size: 26px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,6 +15,7 @@ textarea {
     display: block;
     float: left;
     overflow: auto;
+    padding :10px
 }
 
 #render {
