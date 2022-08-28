@@ -16,7 +16,6 @@ function download(data, filename, type) {
     a.download = filename;
     document.body.appendChild(a);
     a.click();
-
     setTimeout(function () {
         document.body.removeChild(a);
         window.URL.revokeObjectURL(url);
