@@ -63,7 +63,7 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 
 ## Author
 
-- [@Varshithvhegde](HTT
+- [@Varshithvhegde](htpps://github.com/Varshithvhegde)
 
 
 ## Show your support
