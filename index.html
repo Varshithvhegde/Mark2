@@ -45,16 +45,27 @@
             }
         }
         start()
-
+        var i=0;
         function convertToHTML(){
+          if(i==0){
+            i=1;
           document.getElementById("textarea").readOnly = true;
-          localStorage.setItem("fmy",1);
+          // localStorage.setItem("fmy",1);
           var md=localStorage.getItem("md");
           //var userText = document.getElementById("textarea").value;
 
           var converter = new showdown.Converter();
           var html = converter.makeHtml(md);
           document.getElementById('textarea').innerHTML=html;
+          }
+          else{
+            i=0;
+            document.getElementById("textarea").readOnly = false;
+            // localStorage.setItem("fmy",0);
+            var md=localStorage.getItem("md");
+            //var userText = document.getElementById("textarea").value;
+            document.getElementById('textarea').innerHTML=md;
+          }
            //render();
         }
         </script>
