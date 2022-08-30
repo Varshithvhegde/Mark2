@@ -5,9 +5,9 @@ function start(){
         render();
     }
     else{
-    var str="# MarkDown Editor\n\n> GitHub Flavored Markdown Editor\n# How to Use\n- Clear the all codes on the left panel\n- Write some markdown codes there\n- Enjoy!";
-    document.getElementById('textarea').innerHTML=str;
-    render();
+        var str="# MarkDown Editor\n\n> GitHub Flavored Markdown Editor\n# How to Use\n- Clear the all codes on the left panel\n- Write some markdown codes there\n- Enjoy!";
+        document.getElementById('textarea').innerHTML=str;
+        render();
     }
 }
 var i=0;
