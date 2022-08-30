@@ -2,11 +2,9 @@
 function saveFile() {
     var fileName=prompt("What is the name of file?", "");
     if (fileName != null) {
-    
-    download(document.getElementById("textarea").value, fileName + ".md", "text/plain");
+        download(document.getElementById("textarea").value, fileName + ".md", "text/plain");
     }
 }
-
 function download(data, filename, type) {
     var userFile = new Blob([data], { type: type });
 
