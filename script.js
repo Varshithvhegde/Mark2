@@ -1,3 +1,4 @@
+//This function is for initailizing the markdown editor
 function start(){
     var md=localStorage.getItem("md");
     if(md!=null){
@@ -11,6 +12,8 @@ function start(){
     }
 }
 var i=0;
+
+// This Function is to convert the markdown to html
 function convertToHTML(){
   if(i==0){
     i=1;
@@ -31,6 +34,5 @@ function convertToHTML(){
     document.getElementById("converttohtml").innerHTML="Convert to HTML";
     var md=localStorage.getItem("md");
     document.getElementById('textarea').value=md;
-  }
-   
+  } 
 }
