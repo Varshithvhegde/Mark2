@@ -29,7 +29,6 @@ function convertToHTML(){
     i=0;
     document.getElementById("textarea").readOnly = false;
     document.getElementById("converttohtml").innerHTML="Convert to HTML";
-    // localStorage.setItem("fmy",0);
     var md=localStorage.getItem("md");
     document.getElementById('textarea').value=md;
   }
