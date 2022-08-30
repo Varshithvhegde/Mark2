@@ -72,6 +72,18 @@ textarea {
     margin-top: 1%; 
 }
 
+#converttohtml{
+    width: 75px;
+    height: 60px;
+    max-width: 20%;;
+    background-color: rgb(0, 53, 128);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    align-content: center;
+    margin-top: 1%;
+}
+
 .render h1{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
