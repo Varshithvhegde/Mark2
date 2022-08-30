@@ -23,11 +23,17 @@
     <div id="content">
         <!-- Text Area for Markdown Input -->
         <textarea id="textarea" rows="20" cols="20" spellcheck="false" oninput="render()" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}"></textarea>
+        <!-- Javascript for LiveRendering of Markdown -->
         <script src="RenderMarkdown.js"></script>
+        <!-- Javascript for Saving Markdown to Local Storage -->
         <script src="SaveFile.js"></script>
+        <!-- Output Area for Rendered Markdown -->
         <div id="render" onload="render()" class="markdown-body"><p></p></div>
+        <!-- Save Button -->
         <button id="savebutton" onclick="saveFile();">Save</button>
+        <!-- Clear Local Storage Button -->
         <button id="clear" onclick="start();localStorage.removeItem('md');window.location.reload(); ">Clear Storage</button>
+        <!-- Button for Converting Markdown to HTML -->
         <button id="converttohtml" onclick="convertToHTML();">Convert to HTML</button>
         <footer>
          
