@@ -49,13 +49,6 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 [MIT License](LICENSE)
 
 
-
-## Note
-> For Version 1 [Click Here](https://github.com/Varshithvhegde/MarkEditor)
-
-
-<br>
-
 ## Contributing
 
 - Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -65,6 +58,12 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 
 - [@Varshithvhegde](htpps://github.com/Varshithvhegde)
 
+
+## Note
+> For Version 1 [Click Here](https://github.com/Varshithvhegde/MarkEditor)
+
+
+<br>
 
 ## Show your support
 
