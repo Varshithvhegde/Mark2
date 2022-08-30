@@ -21,6 +21,7 @@
 </head>
 <body>
     <div id="content">
+        <!-- Text Area for Markdown Input -->
         <textarea id="textarea" rows="20" cols="20" spellcheck="false" oninput="render()" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}"></textarea>
         <script src="RenderMarkdown.js"></script>
         <script src="SaveFile.js"></script>
