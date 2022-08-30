@@ -23,7 +23,7 @@
         <div id="render" onload="render()" class="markdown-body"><p></p></div>
         <button id="savebutton" onclick="saveFile();">Save</button>
         <button id="clear" onclick="start();localStorage.removeItem('md');window.location.reload(); ">Clear Storage</button>
-        <!-- <button id="converttohtml" onclick="convertToHTML();">Convert to HTML</button> -->
+        <button id="converttohtml" onclick="convertToHTML();">Convert to HTML</button>
         <footer>
           <!-- start();localStorage.removeItem('md');window.location.reload(); -->
         <p>
@@ -46,16 +46,17 @@
         }
         start()
 
-        // function convertToHTML(){
-        //   localStorage.setItem("fmy",1);
-        //   var md=localStorage.getItem("md");
-        //   //var userText = document.getElementById("textarea").value;
+        function convertToHTML(){
+          document.getElementById("textarea").readOnly = true;
+          localStorage.setItem("fmy",1);
+          var md=localStorage.getItem("md");
+          //var userText = document.getElementById("textarea").value;
 
-        //   var converter = new showdown.Converter();
-        //   var html = converter.makeHtml(md);
-        //   document.getElementById('textarea').innerHTML=html;
-        //    //render();
-        // }
+          var converter = new showdown.Converter();
+          var html = converter.makeHtml(md);
+          document.getElementById('textarea').innerHTML=html;
+           //render();
+        }
         </script>
     </div>
 </body>
