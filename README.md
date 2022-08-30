@@ -56,7 +56,7 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 
 ## Author
 
-- [@Varshithvhegde](htpps://github.com/Varshithvhegde)
+- [Varshithvhegde](htpps://github.com/Varshithvhegde)
 
 
 ## Note
