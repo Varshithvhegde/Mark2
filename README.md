@@ -35,11 +35,12 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 - JavaScript
 - jQuery
 - <a href="https://marked.js.org">Marked.js</a>
+- <a href="https://github.com/jonschlinkert/remarkable">Remarkable</a>
 - Github Pages for hosting the website
 
 ## Screenshots
 
-document.getElementById('render').innerHTML=html;
+
 
 
 
