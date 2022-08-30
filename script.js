@@ -18,13 +18,12 @@ function start(){
             i=1;
           document.getElementById("textarea").readOnly = true;
          
-          var md=localStorage.getItem("md");
-          //var userText = document.getElementById("textarea").value;
+          
           document.getElementById("converttohtml").innerHTML="Convert to Markdown";
           var md1 = new Remarkable();
           var converter = new showdown.Converter();
           var html = converter.makeHtml(md);
-          // var html = md1.render(md);
+    
           document.getElementById('textarea').value=html;
           console.log(html);
           }
@@ -32,10 +31,10 @@ function start(){
             i=0;
             document.getElementById("textarea").readOnly = false;
             document.getElementById("converttohtml").innerHTML="Convert to HTML";
-            // localStorage.setItem("fmy",0);
+        
             var md=localStorage.getItem("md");
-            //var userText = document.getElementById("textarea").value;
+           
             document.getElementById('textarea').value=md;
           }
-           //render();
+           
         }
