@@ -46,7 +46,7 @@ git clone https://github.com/Varshithvhegde/Mark2.git
 
 ## License
 
-[MIT License](https://github.com/Varshithvhegde/htmleditor/blob/main/index.html)
+[MIT License](LICENSE)
 
 
 
