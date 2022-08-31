@@ -101,6 +101,29 @@ footer p{
  
     font-weight: bold;
 }
+
+/*Style for file upload*/
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    width: 50px;
+    height: 55px;
+    max-width: 20%;
+    background-color: rgb(0, 53, 128);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    font-size: 13px;
+    align-content: center;
+    margin-top: 1%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+
+}
 /*Responsive*/
 @media screen and (max-width: 600px) {
     #textarea {

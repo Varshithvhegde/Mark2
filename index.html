@@ -36,6 +36,8 @@
         <button id="clear" onclick="start();localStorage.removeItem('md');window.location.reload(); ">Clear Storage</button>
         <!-- Button for Converting Markdown to HTML -->
         <button id="converttohtml" onclick="convertToHTML();">Convert to HTML</button>
+       <label  for="file-upload" class="custom-file-upload">Choose Markdown File<input type="file" id="file-upload" onchange="getFile(this);"></label>
+
         <footer>
           <p>
             Made With ❤️ By 
@@ -44,6 +46,21 @@
         </footer>
       <script>
         start()
+        function getFile(id){
+        var file = document.getElementById("file-upload").files[0];
+        var reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = function() {
+          var md = reader.result;
+          document.getElementById("textarea").value=md;
+          render();
+        };
+	reader.onerror = function() {
+		console.log(reader.error);
+	}
+  
+}
+
       </script>
     </div>
 </body>
