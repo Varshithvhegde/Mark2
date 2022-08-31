@@ -36,3 +36,18 @@ function convertToHTML(){
     document.getElementById('textarea').value=md;
   } 
 }
+
+function getFile(id){
+  var file = document.getElementById("file-upload").files[0];
+  var reader = new FileReader();
+  reader.readAsText(file);
+  reader.onload = function() {
+    var md = reader.result;
+    document.getElementById("textarea").value=md;
+    render();
+  };
+reader.onerror = function() {
+console.log(reader.error);
+}
+
+}
