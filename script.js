@@ -53,15 +53,15 @@ function getFile(id){
   }
   else{
   var reader = new FileReader();
-  reader.readAsText(file);
-  reader.onload = function() {
-    var md = reader.result;
-    document.getElementById("textarea").value=md;
-    render();
-  };
-  reader.onerror = function() {
-  console.log(reader.error);
-  }
+    reader.readAsText(file);
+    reader.onload = function() {
+      var md = reader.result;
+      document.getElementById("textarea").value=md;
+      render();
+    };
+    reader.onerror = function() {
+    console.log(reader.error);
+    }
   }
 
 }
