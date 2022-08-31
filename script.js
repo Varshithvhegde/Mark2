@@ -37,8 +37,21 @@ function convertToHTML(){
   } 
 }
 
+
+// This function is to get file from the user
 function getFile(id){
+  var fileInput =document.getElementById("file-upload");
   var file = document.getElementById("file-upload").files[0];
+  var filePath = fileInput.value;
+         
+  var allowedExtensions =/(\.md)$/i;
+    
+  if (!allowedExtensions.exec(filePath)) {
+      alert('Invalid file type\nChoose a Markdown file');
+      fileInput.value = '';
+      return false;
+  }
+  else{
   var reader = new FileReader();
   reader.readAsText(file);
   reader.onload = function() {
@@ -46,8 +59,9 @@ function getFile(id){
     document.getElementById("textarea").value=md;
     render();
   };
-reader.onerror = function() {
-console.log(reader.error);
-}
+  reader.onerror = function() {
+  console.log(reader.error);
+  }
+  }
 
 }
