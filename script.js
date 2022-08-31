@@ -63,5 +63,4 @@ function getFile(id){
     console.log(reader.error);
     }
   }
-
 }
