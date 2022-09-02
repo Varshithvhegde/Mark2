@@ -6,7 +6,7 @@ function start(){
         render();
     }
     else{
-        var str="# MarkDown Editor\n\n> GitHub Flavored Markdown Editor\n# How to Use\n- Clear the all codes on the left panel\n- Write some markdown codes there\n- Enjoy!";
+        var str="# MarkDown Editor\n\n> GitHub Flavored Markdown Editor\n# How to Use\n- Clear the all codes on the left panel\n- Write some markdown codes there\n- Enjoy!\n- Follow [Varshith V Hegde](https://github.com/Varshithvhegde)";
         document.getElementById('textarea').innerHTML=str;
         render();
     }
